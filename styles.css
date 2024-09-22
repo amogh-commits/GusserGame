@@ -1,0 +1,35 @@
+#balls {
+    width: 80%;
+    margin: auto;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ball.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.ball.red {
+    background-color: red;
+}
+
+.ball.green {
+    background-color: green;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+}
